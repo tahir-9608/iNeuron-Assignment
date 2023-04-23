@@ -1,0 +1,59 @@
+Q1. Explain the advantages of Natural Queries in PowerBi with an example?
+
+Ans ->the advantages of Natural Queries in PowerBi with an example are -:
+
+1. It requires no prior knowledge on any querying language like SQL, excel. ...
+2. Once dashboard is created and submitted to Business stakeholders, stakeholders find it easy to query on their own    in the report submitted by the Analyst Team.
+3. Power BI shows predictions as user types the query which indeed helps user to query faster and confidently
+It reduces confusion to layman.
+
+Q2. Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+
+Answer -:
+1.The Web Front End (WFE) cluster. The WFE cluster manages the initial connection and authentication to the Power BI    service.
+2. The Back-End cluster. Once authenticated, the Back-End handles all subsequent user interactions.
+3. Power BI uses Azure Active Directory (Azure AD) to store and manage user identities. 
+4. Azure AD also manages data storage and metadata using Azure BLOB and Azure SQL Database, respectively.
+
+Q3. Explain Back End cluster from Power BI Service Architecture?
+
+Answer- 
+The back-end cluster is the backbone of all the functionality available in Power BI. 
+It consists of several service endpoints consumed by Web Front End and API clients as well as background working services, databases, caches, and various other components.
+
+Visualizations, datasets, storage, reports, data connections, data updating, and other Power BI interactions are handled by the Power BI services on the back end. A web client can only directly interface with Azure API Management and Gateway Role on the backend. These two parts are in charge of routing, load balancing, authentication, and authorization. 
+
+Q4. What ASP.NET component does in Power BI Service Architecture?
+
+Answer -:ASP.NET component plays a major role while publishing reports and dashboards to workspace where stakeholder interact with it in front end provided by Power BI service. Not only that, BI dashboards can also be accessed through other apps like Microsoft teams which embeds BI Applicaiton through ASP.NET framework.
+
+
+Q5. List 20 data sources supported by Power Bi desktop.
+Answer -: The 20 data sources supported by Power Bi desktop-:
+
+SQL Server database
+Access database
+SQL Server Analysis Services database
+Oracle database
+IBM Db2 database
+IBM Informix database (Beta)
+IBM Netezza
+MySQL database
+PostgreSQL database
+Sybase database
+Teradata database
+SAP Business Warehouse Application Server
+SAP Business Warehouse Message Server
+Amazon Redshift
+Impala
+Google BigQuery
+Vertica
+Snowflake
+Essbase
+Actian (Beta)
+Amazon Athena
+AtScale cubes
+BI Connector
+
+
+
